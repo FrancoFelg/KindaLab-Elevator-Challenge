@@ -9,6 +9,24 @@ también podemos buscar y dejar la llave de acceso, cambiar el peso de lo que tr
 
 Los ascensores solo pueden ser accedidos si su piso coincide con el piso del usuario y si no se excede su límite.
 
+Las operaciones son:
+
+0. Dejar el edificio
+1. Llamar ascensor público
+2. Usar el ascensor público
+3. Dejar al ascensor público
+4. Llamar el ascensor de carga
+5. Usar el ascensor de carga
+6. Dejar el ascensor de carga
+7. Buscar la llave de acceso
+8. Dejar la llave de acceso
+9. Seleccionar el peso de lo que transportamos
+10. Cambiar nuestro peso
+
+~~100. Muestra los datos del usuario y de ambos ascensores, pero es un código secreto~~
+
+
+
 **Modelos**
 - 
 ****
@@ -75,6 +93,10 @@ Los ascensores deben ser llamados y al ser usados no se debe exceder su límite 
 Cuando el usuario usa un ascensor, este ascensor carga el peso del usuario sumado al peso de lo que esté transformando, si su peso total es mayor al límite, el ascensor no cambiará su posición y no llevará al usuario.
 
 Cuando el usuario usa un ascensor y cumple todas las condiciones, el ascensor cambia su peso a la suma del peso del usuario más el peso de lo que transporte el usuario y tanto el ascensor como el usuario cambian su posición al piso seleccionado.
+
+La aplicacion tiene un servicio de validaciones que permiten crear y verificar si se incumplen/cumplen las condiciones que se proponen.
+
+
 
 
 
