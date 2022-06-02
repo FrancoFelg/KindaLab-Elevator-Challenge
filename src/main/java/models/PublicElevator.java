@@ -8,8 +8,8 @@ public class PublicElevator extends Elevator {
     public PublicElevator(){}
 
     //AllArgs Constructor
-    public PublicElevator(Long id, Float maxWeight, Float actualWeight, String accessLevel, Integer position, Boolean accessKey) {
-        super(id, maxWeight, actualWeight, accessLevel, position);
+    public PublicElevator(Long id, Float maxWeight, Float actualWeight, Integer position, Boolean accessKey) {
+        super(id, maxWeight, actualWeight, position);
         this.accessKey = accessKey;
     }
 

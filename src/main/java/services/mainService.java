@@ -39,8 +39,8 @@ public class mainService {
     //This procedure will run the entire application.
     public static void RunApplication() throws Exception {
 
-        PublicElevator publicElevator = new PublicElevator(1L, 1000F, 0F, "Public", 0, false);
-        FreightElevator freightElevator = new FreightElevator(1L, 30000F, 0F, "Freight", 0);
+        PublicElevator publicElevator = new PublicElevator(1L, 1000F, 0F, 0, false);
+        FreightElevator freightElevator = new FreightElevator(1L, 30000F, 0F,  0);
         Building building = new Building(1L, 50, publicElevator, freightElevator);
 
         menuSystem(building, publicElevator, freightElevator);

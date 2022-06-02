@@ -10,7 +10,6 @@ public abstract class Elevator {
     private Long id;
     private Float maxWeight; //it is calculated in kilograms.
     private Float actualWeight;
-    private String accessLevel;
     private Integer position;
 
     //Empty Constructor
@@ -18,11 +17,10 @@ public abstract class Elevator {
 
 
     //AllArgs Constructor
-    public Elevator(Long id, Float maxWeight, Float actualWeight, String accessLevel, Integer position) {
+    public Elevator(Long id, Float maxWeight, Float actualWeight,  Integer position) {
         this.id = id;
         this.maxWeight = maxWeight;
         this.actualWeight = actualWeight;
-        this.accessLevel = accessLevel;
         this.position = position;
     }
 
@@ -33,10 +31,6 @@ public abstract class Elevator {
 
     public Float getMaxWeight() {
         return maxWeight;
-    }
-
-    public String getAccessLevel() {
-        return accessLevel;
     }
 
     public Integer getPosition() {
