@@ -13,10 +13,10 @@ public class mainService {
             "What do you want to do? \n" +
             "1 . Call the Public Elevator \n" +
             "2 . Use and enter into the Public Elevator \n" +
-            "3 . Left the Public Elevator\n" +
+            "3 . Leave the Public Elevator\n" +
             "4 . Call the Freight Elevator\n" +
             "5 . Use and enter into the Freight Elevator\n" +
-            "6 . Left the Freight Elevator\n" +
+            "6 . Leave the Freight Elevator\n" +
             "7 . Search the Access key \n" +
             "8 . Leave the access key \n" +
             "9 . Select how much weight you are carrying \n" +
